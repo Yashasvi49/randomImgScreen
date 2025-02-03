@@ -1,0 +1,18 @@
+button{
+    padding: 20px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(46, 118, 252);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-weight: bolder;
+    z-index: 99;
+    transition: all ease 0.05s;
+}
+
+button:active{
+    transform: translate(-50%,-50%) scale(0.9);
+}
