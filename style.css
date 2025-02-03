@@ -2,7 +2,7 @@ button{
     padding: 20px 30px;
     font-size: 20px;
     border-radius: 10px;
-    background-color: rgb(46, 118, 252);
+    background-color: rgba(46, 118, 252, 0.9);
     position: absolute;
     left: 50%;
     top: 50%;
@@ -12,7 +12,9 @@ button{
     z-index: 99;
     transition: all ease 0.05s;
 }
-
+body{
+    overflow: hidden;
+}
 button:active{
     transform: translate(-50%,-50%) scale(0.9);
 }
